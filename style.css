@@ -1,0 +1,17 @@
+* {
+    background-color:rgb(32,32,32);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    margin: 5%;
+    max-width: 1280px;
+  }
+  
+  main {
+    color: rgb(8, 150, 150);
+  }
+  
+  h1 {
+    color: rgba(192, 144, 21, 0.95)
+  }
