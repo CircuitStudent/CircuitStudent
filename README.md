@@ -1,6 +1,6 @@
 ### Hi there, my name is Dave 👋
 - 🔭 I’m currently preparing for hackathons
-- 🌱 I’m currently learning data science
+- 🌱 I’m currently learning web development and data science
 - 📫 How to reach me: circuitstudent@gmail.com
   
 <!--
