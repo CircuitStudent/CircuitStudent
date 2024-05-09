@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codecademy CSS CheatSheet</title>
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>CSS Cheatsheet</h1>
+  </header>
+  <main>
+
+    <section>
+      <h2>HTML Components to Link to a Stylesheet</h2>     
+      <table>
+        <thead>
+          <tr>
+            <th>HTML</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>&lt;link href="style.css" type="text/css" rel="stylesheet"&gt;</b></td>
+            <td>creates a link to an external custom style sheet</td>
+          </tr>
+          <tr>
+            <td><b>&lt;link href="https://fonts.googleapis.com/css? family=Droid%20Serif" 
+              rel="stylesheet">&gt;</b></td>
+            <td>imports a font</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>CSS Properties and Attributes</h2>
+
+        <h3>Color</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>CSS Property: Value</th>
+              <th>Use/Meaning</th>
+            </tr>
+          </thead>
+          <tbody>            
+            <tr>
+              <td><b>background-color: aqua;</b></td>
+              <td>sets the background color (non-text) of the current container
+                <a href="https://www.quackit.com/css/css_color_codes.cfm" target="_blank" rel="noreferrer" rel="noopener">Quacklit CSS Colors</a>
+              </td>
+            </tr>
+            <tr>
+              <td><b>color: blue;</b></td>
+              <td>sets the foreground color (text) of the current container 
+                <a href="https://www.quackit.com/css/css_color_codes.cfm" target="_blank" rel="noreferrer" rel="noopener">Quacklit CSS Colors</a></td>
+            </tr>
+            <tr>
+              <td><b>opacity: 0.5;</b></td>
+              <td>level of transparency on a scale of 0-1.0</td>
+            </tr>
+            <tr>
+              <td><b>color: rgb(255, 0, 127);</b></td>
+              <td>red, green, and blue intensities on a scale of 0-255</td>
+            </tr>
+            <tr>
+              <td><b>color: rgba(255, 0, 127, 0.75);</b></td>
+              <td>added alpha value is essentially opacity</td>
+            </tr>
+            <tr>
+              <td><b>color: #FF007F;</b></td>
+              <td>hexadecimal representation of rgb coding</td>
+            </tr>
+            <tr>
+              <td><b>color: hsl(12, 100%, 50%);</b></td>
+              <td>hue (0-360), saturation (0-100%), lightness (0-100%)</td>
+            </tr>
+            <tr>
+              <td><b>color: hsla(12, 100%, 100%, 0.8);</b></td>
+              <td>added alpha value is essentially opacity</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Text</h3> 
+        <table>
+          <thead>
+            <tr>
+              <th>CSS Property: Value</th>
+              <th>Use/Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>font-family: 'Times New Roman', Times, serif;</b></td>
+              <td>typeface style ranging from nicest to most likely available by default</td>
+            </tr>
+            <tr>
+              <td><b>@font-face {<br>
+              font-family: 'Glegoo';<br>
+              src: url('../fonts/Glegoo-Regular.ttf') format('truetype');<br>
+              }</b></td>
+              <td>imports a font</td>
+            </tr>
+            <tr>
+              <td><b>font-size: 16px;</b></td>
+              <td>size of text</td>
+            </tr>
+            <tr>
+              <td><b>font-weight: 400;</b></td>
+              <td>lightness/boldness on a scale from 100-900 in multiples of 100; or words like: <b>normal, bold</b></td>
+            </tr>
+            <tr>
+              <td><b>font-style: italic</b></td>
+              <td>describes slants and cursive styles; <b>normal, oblique</b></td>
+            </tr>
+            <tr>
+              <td><b>line-height: 10px;</b></td>
+              <td>describes text height plus space between lines</td>
+            </tr>
+            <tr>
+              <td><b>text-align: left;</b></td>
+              <td>justification with respect to parent container; <b>right, center, justify</b></td>
+            </tr>
+            <tr>
+              <td><b>text-transform: uppercase;</b></td>
+              <td>convert text to <b>uppercase, lowercase, or capitalized</b></td>
+            </tr>
+            <tr>
+              <td><b>text-decoration: underline;</b></td>
+              <td>applies lines (or lack of) to text; <b>none, overline, line-through</b></td>
+            </tr>
+            <tr>
+              <td><b>text-indent: 20px;</b></td>
+              <td>indents first line of text in an element</td>
+            </tr>
+            <tr>
+              <td><b>letter-spacing: 2px;</b></td>
+              <td>set horizontal space between characters</td>
+            </tr>
+            <tr>
+              <td><b>word-spacing: 0.3em;</b></td>
+              <td>set horizontal space between words</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Box</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>CSS Property: Value</th>
+              <th>Use/Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>border: 3px solid coral;</b></td>
+              <td>draw a border around the container with given: width, style, and color</td>
+            </tr>
+            <tr>
+              <td><b>border-radius: 5px;</b></td>
+              <td>round the corners of a container</td>
+            </tr>
+            <tr>
+              <td><b>padding: 3px;</b></td>
+              <td>space between container content and border</td>
+            </tr>
+            <tr>
+              <td><b>margin: 20px;</b></td>
+              <td>space between container border and its true outer edge</td>
+            </tr>
+            <tr>
+              <td><b>background-image: url("nyan-cat.gif");</b></td>
+              <td>sets background image of container</td>
+            </tr>
+            <tr>
+              <td><b>overflow: scroll;</b></td>
+              <td>determines how to handle content that is larger than its container.</td>
+            </tr>
+            <tr>
+              <td><b>box-sizing: content-box;</b></td>
+              <td>padding and border are in addition to width/height (default)</td>
+            </tr>
+            <tr>
+              <td><b>box-sizing: border-box;</b></td>
+              <td>padding and border are included in width/height (content shrinks)</td>
+            </tr>
+            <tr>
+              <td><b>z-index: -1;</b></td>
+              <td>location into or out of the page, for overlapping; larger is closer</td>
+            </tr>
+            <tr>
+              <td><b>display: block;</b></td>
+              <td>content wrapped tightly on top and bottom, but gets page width by default,
+                size can be set</td>
+            </tr>
+            <tr>
+              <td><b>display: inline;</b></td>
+              <td>boundaries wrap tightly to content without newlines or size control</td>
+            </tr>
+            <tr>
+              <td><b>display: inline-block;</b></td>
+              <td>elements can appear adjacent with set dimensions</td>
+            </tr>
+            <tr>
+              <td><b>display: none</b></td>
+              <td>element's visibility is completely removed from page</td>
+            </tr>
+            <tr>
+              <td><b>position: fixed;</b></td>
+              <td>sticks container to viewport relative to the page</td>
+            </tr>
+            <tr>
+              <td><b>position: absolute;</b></td>
+              <td>every other element ignores this one and position becomes relative to parent</td>
+            </tr>
+            <tr>
+              <td><b>position: relative;</b></td>
+              <td>dictate position relative to default static location</td>
+            </tr>
+            <tr>
+              <td><b>top: 50px;</b></td> <!--50px down from the top-->
+              <td>with relative position, distance down from the top</td>
+            </tr>
+            <tr>
+              <td><b>left: 120px;</b></td> <!--120px from the left-->
+              <td>with relative position, distance from the left</td>
+            </tr>
+            <tr>
+              <td><b>position: static;</b></td>
+              <td>default, inline, block, and inline-block rules apply</td>
+            </tr>
+            <tr>
+              <td><b>position: sticky;</b></td>
+              <td>element scrolls with page up to a sticky point</td>
+            </tr>
+            <tr>
+              <td><b>float: right;</b></td>
+              <td>moves elements to the left or right within their container</td>
+            </tr>
+            <tr>
+              <td><b>clear: both;</b></td>
+              <td>avoids blocking elements by clearing <b>none, left, right, or 
+                both sides</b></td>
+            </tr>
+            <tr>
+              <td><b>visibility: hidden;</b></td>
+              <td>removes element's visibility, but saves space</td>
+            </tr>
+            <tr>
+              <td><b>outline-style: dotted;</b></td>
+              <td>set border outline style; <b>dashed, solid, double, groove, ridge, inset, outset</b></td>
+            </tr>
+            <tr>
+              <td><b>outline-color: red;</b></td>
+              <td>set border outline color</td>
+            </tr>
+            <tr>
+              <td><b>outline-width: 4px;</b></td>
+              <td>set border outline width</td>
+            </tr>
+            <tr>
+              <td><b>outline: 5px ridge pink</b></td>
+              <td>shorthand for width, style, and color</td>
+            </tr>
+            <tr>
+              <td><b>outline-offset: 15px;</b></td>
+              <td>adds space between the border and outline</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+
+    <section>
+      <h2>Pseudo-Elements</h2>
+      <table>
+        <thead>
+          <th>Pseudo-Elements</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>a:link {}</b></td>
+            <td>sets the styles for links not yet selected</td>
+          </tr>
+          <tr>
+            <td><b>a:visited {}</b></td>
+            <td>set styles for links that have been selected</td>
+          </tr>
+          <tr>
+            <td><b>a:hover {}</b></td>
+            <td>set styles during a mouse over</td>
+          </tr>
+          <tr>
+            <td><b>a:focus {}</b></td>
+            <td>set styles for item that has focus</td>
+          </tr>
+          <tr>
+            <td><b>a:active {}</b></td>
+            <td>set styles during mouse click</td>
+          </tr>
+          <tr>
+            <td><b>p.intro:first-letter {}</b></td>
+            <td>set styles for the first letter in an element</td>
+          </tr>
+          <tr>
+            <td><b>p.intro:first-line {}</b></td>
+            <td>set styles for the first line of text in an element</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <nav>
+      <div id="navbar">
+        <a href="https://www.codecademy.com/learn/learn-html" target="_blank" rel="noreferrer" rel="noopener">Codecademy_HTML</a>
+        <a href="https://www.codecademy.com/learn/learn-css" target="_blank" rel="noreferrer" rel="noopener">Codecademy_CSS</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank" rel="noreferrer" rel="noopener">MDN</a>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noreferrer" rel="noopener">W3Schools</a>
+      </div>
+    </nav>
+  </main>
+</body>
+</html>

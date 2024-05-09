@@ -2,3 +2,100 @@ body {
     background-color: black;
     color: dodgerblue;
 }
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color:dodgerblue;
+    background-color: black;
+    background-image: url('https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg');
+    max-width: 1880px;
+    margin: 0 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  ul {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  
+  .entry {
+    text-align: right;
+  }
+  
+  a {
+    color: goldenrod;
+  }
+
+  profile_pic p {
+    display: inline-block;
+    max-width: 600px;
+    vertical-align: top;
+  }
+  
+  .profile_pic img {
+    display: inline;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
+  .profile_pic figcaption {
+    position: relative;
+    left: 40px;
+  }
+  
+  .entry img {
+    /*initial style for img*/
+    height: 24px;
+    /*additional styles*/
+    opacity: 0.5;
+  }
+
+nav ul {
+    text-transform: uppercase;
+    list-style-type: none;  /* remove line breaks */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  /* remove underscores */
+  }
+  
+  nav li a:hover:not(.active) {
+    background-color: rgba(1,1,1,0.5);
+  }
+  
+   nav .active {
+    background-color: #04aa6d;
+  }
+  
+  /* nav li:last-child {
+    float: right;
+  } */
+  

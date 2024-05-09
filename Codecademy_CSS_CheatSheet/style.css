@@ -1,0 +1,96 @@
+* {
+  background-color:rgb(32,32,32);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 5%;
+  max-width: 1280px;
+  text-align: center;
+}
+
+main {
+  color: rgb(8, 150, 150);
+}
+
+b {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(83, 97, 110, 0.9);
+  color: black;
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  color: rgba(192, 144, 21, 0.95);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(26, 70, 202);
+}
+
+h3 {
+  color: rgb(18, 102, 18);
+  text-indent: 10px;
+}
+
+td {
+  border: 1px solid rgba(21, 101, 180, 0.5);
+  text-align: left;
+}
+
+th {
+  border: 2px solid rgba(28, 135, 241, 0.5);
+}
+
+ul {
+  text-align: left;  
+}
+
+nav ul li {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  font-size: 200%;
+  margin: 5px;
+  padding: 5px;
+}
+
+a:link {
+  color: black;
+  background-color: rgb(16, 79, 141);
+  padding: 2px;
+}
+
+a:visited {
+  color: black;
+  background-color: rgb(16, 79, 141);
+  padding: 2px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+}
+
+#navbar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background: rgba(192, 144, 21, 0.95);
+  color: black;
+}
