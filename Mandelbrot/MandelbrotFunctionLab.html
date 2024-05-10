@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandelbrot Function Lab</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- <script src="./script21.js"></script> -->
+  <script src="./MandelbrotFunctionLab.js"></script>
+</head>
+<body onload="draw();">
+  <h1>Mandelbrot Plot</h1>
+    <canvas id="canvas" width="320" height="240">Mandelbrot Set Plot</canvas>
+    <canvas id="julia-canvas" width="320" height="240">Julia Set Plot</canvas>
+    <br>
+    <canvas id="color-spectrum" width="320" height="10"></canvas> 
+    <section id="real-time">
+    <h2>Current Setting</h2>    
+      <p>Real (x-axis): <span id="x_coord"></span></p>        
+      <p>Imaginary (y-axis) <span id="y_coord"></span></p>  
+      <p>Iterations <span id="iterations"></span></p>
+    </section>
+    <section id="last-frame">
+    <h2>Last Frame</h2>
+      <p>Center (a, b): (<span id="a-center"></span>, <span id="b-center"></span>)</p>
+      <p>Range: <span id="range"></span></p>
+      <p>Iterations: <span id="iter-max"></span></p>
+    </section>
+</body>
+</html>
