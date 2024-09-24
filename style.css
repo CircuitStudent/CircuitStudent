@@ -1,121 +1,116 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    color:dodgerblue;
-    background-color: black;
-    /*background-image: url('https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg');*/
-    max-width: 800px;
-    margin: 0 10px;
-    
-    background-image: url("./images/blue\ flame.png");
-    background-repeat: repeat-x; 
-    background-position: bottom;
-  }
+  font-family: 'Josefin Sans', sans-serif;
+  color:dodgerblue;
+  background-color: black;
+  /*background-image: url('https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg');*/
+  max-width: 800px;
+  margin: 0 10px;
   
-  h1 {
-    font-size: 2em;
+  background-image: url("./images/blue\ flame.png");
+  background-repeat: repeat-x; 
+  background-position: bottom;
+}
   
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    color: #04aa6d;
-  }
+h1 {
+  font-size: 2em;
 
-  hr {
-    border: 1px solid #04aa6d;
-  }
+}
 
-  ul {
-    font-size: 1em;
-    font-weight: bold;
-    font-style: oblique;
-  }
+h2 {
+  font-size: 1.5em;
+  color: #04aa6d;
+}
 
-  p {
-    color: #04aa6d;
-    font-size: 1em;
-    font-weight: bold;
-    font-style: oblique;
-  }
-  
-  .entry {
-    text-align: right;
-  }
-  
-  a {
-    color: goldenrod;
-  }
+hr {
+  border: 1px solid #04aa6d;
+}
 
-  .projects h2 {
-    margin: 1em 0 0.2em 0 ;
-  }
+ul {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: oblique;
+}
 
-  .projects p {
-    color: #04aa6d;
-    font-size: 0.75em;
-    margin: 0.2em 0 1em 0;
-  }
+p {
+  color: #04aa6d7b;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 1em;
+}
 
-  .profile_pic p {
-    display: inline-block;
-    max-width: 600px;
-    vertical-align: top;
-  }
-  
-  .profile_pic img {
-    display: inline;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 3px solid #04aa6d;
-  }
-  
-  .profile_pic figcaption {
-    position: relative;
-    left: 10px;
-  }
-  
-  .entry img {
-    /*initial style for img*/
-    height: 24px;
-    /*additional styles*/
-    opacity: 0.5;
-  }
+.entry {
+  text-align: right;
+}
+
+a {
+  color: goldenrod;
+}
+
+.projects h2 {
+  margin: 1em 0 0.2em 0 ;
+}
+
+.profile_pic p {
+  display: inline-block;
+  max-width: 600px;
+  vertical-align: top;
+}
+
+.profile_pic img {
+  display: inline;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #04aa6d;
+}
+
+.profile_pic figcaption {
+  position: relative;
+  left: 20px;
+}
+
+.entry img {
+  /*initial style for img*/
+  height: 24px;
+  /*additional styles*/
+  opacity: 0.5;
+}
 
 nav ul {
-    text-transform: uppercase;
-    list-style-type: none;  /* remove line breaks */
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;  /* remove underscores */
-  }
-  
-  nav li a:hover:not(.active) {
-    background-color: rgba(1,1,1,0.5);
-  }
-  
-   nav .active {
-    background-color: #04aa6d;
-  }
-  
-  /* nav li:last-child {
-    float: right;
-  } */
-  
-  footer p{
-    color: dodgerblue;
-    min-height: 306px;
-  }
+  text-transform: uppercase;
+  list-style-type: none;  /* remove line breaks */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  /* remove underscores */
+}
+
+nav li a:hover:not(.active) {
+  background-color: rgba(1,1,1,0.5);
+}
+
+  nav .active {
+  background-color: #04aa6d;
+}
+
+/* nav li:last-child {
+  float: right;
+} */
+
+footer p{
+  color: dodgerblue;
+  min-height: 306px;
+}
