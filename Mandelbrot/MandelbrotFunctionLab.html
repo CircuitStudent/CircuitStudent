@@ -15,6 +15,16 @@
     <canvas id="julia-canvas" width="320" height="240">Julia Set Plot</canvas>
     <br>
     <canvas id="color-spectrum" width="320" height="10"></canvas> 
+    <section id="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Move cursor over canvas to interact.</li>
+        <li>left click: zooms in at cursor location</li>
+        <li>right click: zooms out from cursor location</li>
+        <li>scroll wheel: changes number of iterations</li>
+        <li>scroll click: repositions (no zoom) to cursor location</li>
+      </ul>
+    </section>
     <section id="real-time">
     <h2>Current Setting</h2>    
       <p>Real (x-axis): <span id="x_coord"></span></p>        
@@ -27,5 +37,6 @@
       <p>Range: <span id="range"></span></p>
       <p>Iterations: <span id="iter-max"></span></p>
     </section>
+    
 </body>
 </html>
