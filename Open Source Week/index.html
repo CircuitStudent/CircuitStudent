@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sparky's Open Source Week Companion</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <script>
+    function copy_to_clipboard(element_id) {
+      const text = document.getElementById(element_id).innerText;
+      navigator.clipboard.writeText(text);
+    }
+    function copy_link_to_clipboard(element_id) {
+      const text = document.getElementById(element_id).href;
+      navigator.clipboard.writeText(text);
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Sparky's Open Source Week Companion</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Major League Hackers Global Hack Week - Cloud - Event Info</h2>
+      <ul>
+        <li class="primary">
+          <button onclick="copy_link_to_clipboard('ghw_main')">copy link</button>
+          <a id="ghw_main" href="https://ghw.mlh.io" target="_blank">MLH Global Hack Week Main Page</a>
+        </li>
+        <li class="primary">
+          <button onclick="copy_link_to_clipboard('ghw_schedule')">copy link</button>
+          <a id="ghw_schedule" href="https://ghw.mlh.io/schedule" target="_blank">Global Hack Week Schedule</a>
+        </li>
+        <li class="primary">
+          <button onclick="copy_link_to_clipboard('ghw_challenges')">copy link</button>
+          <a id="ghw_challenges" href="https://ghw.mlh.io/challenges" target="_blank">Global Hack Week Challenges</a>
+        </li>
+        <li class="primary">
+          <button onclick="copy_link_to_clipboard('ghw_discord')">copy link</button>
+          <a id="ghw_discord" href="https://discord.mlh.io/" target="_blank">MLH Discord invite</a>
+        </li>
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghw_checkin')">copy link</button>
+          <a id="ghw_checkin" href="https://hackp.ac/ghw" target="_blank">Global Hack Week Register/Check-in</a>
+        </li>
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghw_form')">copy link</button>
+          <a id="ghw_form" href="https://hackp.ac/ghwform" target="_blank">Typeform Challenge Entry</a>
+        </li>
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghw_devpost')">copy link</button>
+          <a id="ghw_devpost" href="https://hackp.ac/GHWDevpost" target="_blank">GHW Devpost Entry</a>
+        </li>
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghw_address')">copy link</button>
+          <a id="ghw_address" href="https://hackp.ac/Address" target="_blank">Link for Address Verify</a>
+        </li>
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('github_student')">copy link</button>
+          <a id="github_student" href="https://github.com/education/students" target="_blank">Link Github Developer Pack at Github</a>
+        </li>
+        <!--<li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghwcloud24-github')">copy link</button>
+          <a id="ghwcloud24-github" href="https://mlh.link/ghwcloud24-github" target="_blank">Special GHW Github link</a>
+        </li>-->
+        <li class="checkin">
+          <button onclick="copy_link_to_clipboard('ghw_calendar')">copy link</button>
+          <a id="ghw_calendar" href="https://hackp.ac/GHWCalendar" target="_blank">Open Google Calendar for GHW</a>
+        </li> 
+        <li>
+          <button onclick="copy_link_to_clipboard('youtube')">copy link</button>
+          <a id="youtube" href="https://youtube.com/@majorleaguehacking/streams" target="_blank">Old streams on YouTube</a>
+        </li>
+        <li>
+          <button onclick="copy_link_to_clipboard('twitch')">copy link</button>
+          <a id="twitch" href="https://twitch.tv/mlh" target="_blank">MLH TV on Twitch</a>
+        </li>
+        <li class="tertiary">
+          <button onclick="copy_link_to_clipboard('events')">copy link</button>
+          <a id="events" href="https://mlh.io/events" target="_blank">MLH Events</a>
+        </li>
+        <li class="tertiary">
+          <button onclick="copy_link_to_clipboard('event_membership')">copy link</button>
+          <a id="event_membership" href="https://mlh.io/event-membership"target="_blank">Sign up to run an MLH Hackathon</a>
+        </li>
+        <li class="tertiary">
+          <button onclick="copy_link_to_clipboard('guide')">copy link</button>
+          <a id="guide" href="https://guide.mlh.io/"target="_blank">MLH Hackathon Organizer Guide</a>
+        </li>
+      </ul>
+      <p>Send suggestions for GHW to <a href="mailto:ghw@mlh.io">ghw@mlh.io</a></p>
+    </section>
+    <section>
+      <h2>Streams and Workshops</h2>  
+        <ul>
+          <li><h3>Global Hack Week: Cloud, Daily Streams</h3>
+            <ul>
+              <li><a href="" target="_blank">Opening Ceremony ()</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 2 ()</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 3 ()</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 4 ())</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 5 ()</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 6 ()</a></li>
+              <li><a href="" target="_blank">Today in GHW: Day 7 ()</a></li>
+              <li><a href="" target="_blank">Closing Ceremony ()</a></li>
+            </ul>
+          </li>
+        </ul>
+    </section>
+    <section>
+      <h2>Challenge Links</h2>
+      <ul>
+        <li><a href="https://mlh.link/ghwcloud24-auth0-challenge1" target="_blank">Auth0 Worksheet of Challenges</a></li>
+        <li><a href="https://mlh.link/ghwcloud24-defang-challenge1" target="_blank">Defang Worksheet of Challenges</a></li>
+        <li><a href="https://mlh.link/ghwaiml824-github-copilot-primer" target="_blank">GitHub Copilot Primer</a></li>
+        <li><a href="https://mlh.link/ghwaiml824-pieces-challenge2" target="_blank">Pieces Challenge Worksheet</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
