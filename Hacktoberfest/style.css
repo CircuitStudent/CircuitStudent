@@ -1,0 +1,11 @@
+body {
+    background-image: url('images/Wallpaper/hf_wallpaper_desktop_1.png');
+    color: #ddd;
+}
+
+h1 {
+    color:rgb(255, 183, 49);
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
