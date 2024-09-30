@@ -10,9 +10,13 @@ body {
   background-repeat: repeat-x; 
   background-position: bottom;
 }
+
+.copyright {
+  font-size: 0.75em;
+}
   
 h1 {
-  font-size: 2em;
+  font-size: 1.75em;
 
 }
 
@@ -33,7 +37,7 @@ ul {
 
 p {
   color: #04aa6d7b;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: bold;
   font-style: oblique;
   margin-left: 1em;
@@ -45,6 +49,10 @@ p {
 
 a {
   color: goldenrod;
+}
+
+.projects {
+  max-width: 375px;
 }
 
 .projects h2 {
