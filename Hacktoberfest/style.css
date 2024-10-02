@@ -26,6 +26,12 @@ h1 {
     text-align: center;
 }
 
+#holopin {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
 li {
     color:#116530;
 }
