@@ -119,3 +119,7 @@ ul li {
 ul li ul li ul li {
     color:teal
 }
+
+.hide {
+    display: none;
+}
