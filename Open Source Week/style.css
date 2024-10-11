@@ -91,6 +91,14 @@ iframe{
     display:inline-block;
 }
 
+#mlh_season {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
 .note {
     list-style-type: '-';
     color: rgb(0, 190, 0);
