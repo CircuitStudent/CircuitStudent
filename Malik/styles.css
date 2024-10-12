@@ -1,0 +1,41 @@
+a, a:visited {
+    color: dodgerblue;
+    text-decoration:none;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: green;
+}
+
+body {
+    background-color: black;
+    color: goldenrod;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+p {
+    color: rgb(10, 182, 105);
+}
+
+section {
+    border: solid 1px violet;
+    background-color: #111;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+#navback {
+    float: right;
+    font-size: 0.75em;
+    color: rgb(10, 182, 105);
+}

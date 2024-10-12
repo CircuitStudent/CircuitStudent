@@ -91,6 +91,12 @@ a {
   opacity: 0.5;
 }
 
+#malik {
+  text-decoration: none;
+  color: dodgerblue;
+  cursor: text;
+}
+
 nav ul {
   text-transform: uppercase;
   list-style-type: none;  /* remove line breaks */
