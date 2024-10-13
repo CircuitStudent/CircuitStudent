@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  color:dodgerblue;
+  color:turquoise;
   background-color: black;
   /*background-image: url('https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg');*/
   max-width: 800px;
@@ -47,8 +47,18 @@ p {
   text-align: right;
 }
 
-a {
+a, a:visited {
   color: goldenrod;
+  text-decoration:none;
+}
+
+a:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+a:active {
+  color: red;
 }
 
 .projects {
@@ -93,8 +103,9 @@ a {
 
 #malik {
   text-decoration: none;
-  color: dodgerblue;
+  color: turquoise;
   cursor: text;
+  background-color: black;
 }
 
 nav ul {
@@ -120,6 +131,7 @@ nav li a {
 
 nav li a:hover:not(.active) {
   background-color: rgba(1,1,1,0.5);
+  color: goldenrod;
 }
 
   nav .active {
