@@ -44,7 +44,7 @@ h1 {
 
 h2 {
     color:goldenrod;
-    margin: 3px;
+    margin: 5px;
 }
 
 h3 {
@@ -55,7 +55,6 @@ h3 {
     margin-block-end: 0;
     color:dodgerblue;
 }
-
 
 nav ul {
     list-style-type: disc;
@@ -78,7 +77,8 @@ nav li a:hover {
 
 section {
     background-color:#222;
-    /*border: 1px solid #aaa;*/
+    border: 1px solid goldenrod;
+    margin: 10px;
 }
 
 iframe{
@@ -96,7 +96,12 @@ iframe{
     height: 300px;
     width: 300px;
     float: right;
-    padding: 20px;
+    margin: 20px;
+}
+
+#suggestions {
+    color: gold;
+    padding: 0 10px;
 }
 
 .note {
